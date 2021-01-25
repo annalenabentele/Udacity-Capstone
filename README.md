@@ -29,3 +29,14 @@ In this project, you can build your own C++ application or extend this Snake gam
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
+
+
+## Adressed rubric points
+1. Concurrency - The project uses multithreading. (renderer.cpp l.51-57)
+2. Concurrency - A mutex or lock is used in the project (render.h l.32, renderer.cpp l. 72 & 85 & 114)
+3. Loops, Functions, I/O - The project accepts user input and processes the input (main.cpp l.16-18, renderer.cpp l.64)
+4. Loops, Functions, I/O - The project reads data from a file and process the data, or the the program writes data to a file. (main.cpp l.28-31)
+5. Loops, Functions, I/O - The project demonstrates an understanding of C++ functions and control structures.
+6. Object Oriented Programming - The project uses object oriented programming techniques. (classes: obstacle.h, snake.h, game.h, renderer.h)
+7. Object Oriented Programming - Classes use appropriate access specifiers for class members.
+8. Object Oriented Programming - Class constructors utilize member initialization lists.
